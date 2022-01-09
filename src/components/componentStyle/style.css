@@ -1,0 +1,37 @@
+.App{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.spacestagramSection {
+    margin-top: 5px;
+    width: 525px;
+    height: 900px;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+}
+
+.spacestagramContent {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    right: 0;
+    bottom: 0rem;
+    padding: 0.5rem;
+    overflow: auto;
+}
+
+.spacestagramActions {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 72px;
+    grid-gap: 1rem;
+    border-top: 1px solid #eee;
+}
+
+
