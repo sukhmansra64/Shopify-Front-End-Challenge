@@ -1,3 +1,10 @@
+# Extra Features
+
+The extra features added to this submission are of committing the likes to local storage to save wether or not the user has
+already liked the image. Also added a loading feature which is a spinner which is triggered while the data fetched from the 
+api hasn't been recieved 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
